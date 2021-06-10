@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.container {
+	width: 100%;
+	height: 80px;
+	padding-top: 3%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.form label {
+	margin-bottom: 15px;
+}
+
+.form label p {
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 5px;
+	background-color: #ECCEF5;
+}
+
+.form label input {
+	border-radius: 5px;
+	height: 10px;
+	border: 1px solid rgb(75, 75, 75);
+	outline: none;
+	padding: 10px;
+}
+
+form button {
+	width: 100%;
+	height: 25px;
+	outline: none;
+	color: #F5A9A9;
+	background-color: #5F04B4;
+	border-color: #5F04B4;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #000;
+}
+
+
+
+form button:hover {
+	color: #F5A9A9;
+	background-color: #DF013A;
+	border-color: #146c43;
+}
+
+
+form button:focus {
+	color: #F5A9A9;
+	background-color: #DF013A;
+	border-color: #146c43;
+	box-shadow: 0 0 0 0.25rem rgb(60 153 110 / 50%);
+}
+
+form .buscarContacto {
+	width: 100%;
+	height: 25px;
+	outline: none;
+	color: #F5A9A9;
+	background-color: #B40431;
+	border-color: #B40431;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #000;
+}
+
+form .buscarContacto:hover {
+	color: #F5A9A9;
+	background-color: #0a58ca;
+	border-color: #0a58ca;
+
+}
+
+form .buscarContacto:focus {
+	color: #F5A9A9;
+	background-color: #8A0829;
+	border-color: #8A0829	;
+	box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+
+.contacto--container {
+	margin-left: 5px;
+	padding-left: 5px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #3B0B2E;
+	border-radius: 10px;
+}
+
+.editar {
+	position: relative;
+	float: right;
+	cursor: pointer;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.datos--container p {
+	margin-bottom: 100px;
+	font-family: 'Roboto', sans-serif;
+	size: 20px;
+}
+
+.datos--container .respuesta {
+	font-family: 'Roboto', sans-serif;
+}
+
+.fa,.fab,.fad,.fal,.far,.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em
+}
